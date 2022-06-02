@@ -26,7 +26,7 @@ Follow up: What if the inputs contain Unicode characters? How would you adapt yo
 /*There is a really neat one-liner to do this, by sorting each of the strings,
  and then checking if they are equal*/
 
- function validAnagram(s, t){
+function validAnagram(s, t){
     return s.split('').sort().join('') === t.split('').sort().join('')
 }
 
@@ -34,3 +34,4 @@ Follow up: What if the inputs contain Unicode characters? How would you adapt yo
 console.log("<---------------------------->")
 console.log("ValidAnagrams:")
 console.log(validAnagram("tea", "eat"))
+

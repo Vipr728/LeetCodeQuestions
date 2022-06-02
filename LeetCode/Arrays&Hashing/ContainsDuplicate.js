@@ -28,7 +28,7 @@ Constraints:
 /*For this solution we could loop through the array and check if nums[i] is present anywhere 
  by searching through the array again */
 
- function bruteForce(nums){
+function bruteForce(nums){
     for(let i = 0; i< nums.length; i++){
         //search through the array
         for(let j = i+1; j<nums.length; j++){
